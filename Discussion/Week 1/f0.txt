@@ -1,0 +1,1 @@
+Download the package file, open it, and follow the prompts to install the Go tools. The package installs the Go distribution to /usr/local/go.
