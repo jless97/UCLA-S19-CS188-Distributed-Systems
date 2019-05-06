@@ -1,4 +1,4 @@
-# CS188, Distributed Systems, Spring 2019
+# CS188, Distributed Systems, Spring 2019 
 
 ## Course Objective
 This class teaches design and implementation techniques that enable the building of fast, scalable, fault-tolerant distributed systems.
