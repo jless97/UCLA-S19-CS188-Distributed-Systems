@@ -1,0 +1,2964 @@
+2019/06/04 17:52:11 rpc.Register: reply type of method "ApplyJoin" is not a pointer: "[]string"
+2019/06/04 17:52:11 rpc.Register: method "ApplyLeave" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "ApplyMove" is not a pointer: "int"
+2019/06/04 17:52:11 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyQuery" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "AssignUnservedShards" is not a pointer: "int64"
+2019/06/04 17:52:11 rpc.Register: method "GetMinMaxGroups" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "InitNextConfig" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "RebalanceLoad" is not a pointer: "int64"
+2019/06/04 17:52:11 rpc.Register: method "Run" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardmaster.Op"
+2019/06/04 17:52:11 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:11 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "ApplyJoin" is not a pointer: "[]string"
+2019/06/04 17:52:11 rpc.Register: method "ApplyLeave" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "ApplyMove" is not a pointer: "int"
+2019/06/04 17:52:11 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyQuery" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "AssignUnservedShards" is not a pointer: "int64"
+2019/06/04 17:52:11 rpc.Register: method "GetMinMaxGroups" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "InitNextConfig" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "RebalanceLoad" is not a pointer: "int64"
+2019/06/04 17:52:11 rpc.Register: method "Run" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardmaster.Op"
+2019/06/04 17:52:11 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:11 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "ApplyJoin" is not a pointer: "[]string"
+2019/06/04 17:52:11 rpc.Register: method "ApplyLeave" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "ApplyMove" is not a pointer: "int"
+2019/06/04 17:52:11 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyQuery" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "AssignUnservedShards" is not a pointer: "int64"
+2019/06/04 17:52:11 rpc.Register: method "GetMinMaxGroups" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "InitNextConfig" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "RebalanceLoad" is not a pointer: "int64"
+2019/06/04 17:52:11 rpc.Register: method "Run" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardmaster.Op"
+2019/06/04 17:52:11 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:11 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:11 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:11 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:11 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:11 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:11 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:11 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:11 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:11 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:11 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:11 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:11 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:11 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:11 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:11 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:11 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:11 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:11 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:11 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:11 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+Test: Basic Join/Leave ...
+  ... Passed
+2019/06/04 17:52:17 rpc.Register: reply type of method "ApplyJoin" is not a pointer: "[]string"
+2019/06/04 17:52:17 rpc.Register: method "ApplyLeave" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "ApplyMove" is not a pointer: "int"
+2019/06/04 17:52:17 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyQuery" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "AssignUnservedShards" is not a pointer: "int64"
+2019/06/04 17:52:17 rpc.Register: method "GetMinMaxGroups" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "InitNextConfig" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "RebalanceLoad" is not a pointer: "int64"
+2019/06/04 17:52:17 rpc.Register: method "Run" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardmaster.Op"
+2019/06/04 17:52:17 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:17 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "ApplyJoin" is not a pointer: "[]string"
+2019/06/04 17:52:17 rpc.Register: method "ApplyLeave" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "ApplyMove" is not a pointer: "int"
+2019/06/04 17:52:17 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyQuery" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "AssignUnservedShards" is not a pointer: "int64"
+2019/06/04 17:52:17 rpc.Register: method "GetMinMaxGroups" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "InitNextConfig" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "RebalanceLoad" is not a pointer: "int64"
+2019/06/04 17:52:17 rpc.Register: method "Run" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardmaster.Op"
+2019/06/04 17:52:17 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:17 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "ApplyJoin" is not a pointer: "[]string"
+2019/06/04 17:52:17 rpc.Register: method "ApplyLeave" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "ApplyMove" is not a pointer: "int"
+2019/06/04 17:52:17 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyQuery" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "AssignUnservedShards" is not a pointer: "int64"
+2019/06/04 17:52:17 rpc.Register: method "GetMinMaxGroups" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "InitNextConfig" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "RebalanceLoad" is not a pointer: "int64"
+2019/06/04 17:52:17 rpc.Register: method "Run" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardmaster.Op"
+2019/06/04 17:52:17 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:17 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:17 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:17 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:17 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:17 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:17 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:17 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:17 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:17 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:17 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:17 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:17 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:17 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:17 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:17 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:17 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:17 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:17 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:17 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:17 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+Test: Shards really move ...
+  ... Passed
+2019/06/04 17:52:33 rpc.Register: reply type of method "ApplyJoin" is not a pointer: "[]string"
+2019/06/04 17:52:33 rpc.Register: method "ApplyLeave" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "ApplyMove" is not a pointer: "int"
+2019/06/04 17:52:33 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyQuery" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "AssignUnservedShards" is not a pointer: "int64"
+2019/06/04 17:52:33 rpc.Register: method "GetMinMaxGroups" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "InitNextConfig" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "RebalanceLoad" is not a pointer: "int64"
+2019/06/04 17:52:33 rpc.Register: method "Run" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardmaster.Op"
+2019/06/04 17:52:33 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:33 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "ApplyJoin" is not a pointer: "[]string"
+2019/06/04 17:52:33 rpc.Register: method "ApplyLeave" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "ApplyMove" is not a pointer: "int"
+2019/06/04 17:52:33 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyQuery" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "AssignUnservedShards" is not a pointer: "int64"
+2019/06/04 17:52:33 rpc.Register: method "GetMinMaxGroups" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "InitNextConfig" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "RebalanceLoad" is not a pointer: "int64"
+2019/06/04 17:52:33 rpc.Register: method "Run" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardmaster.Op"
+2019/06/04 17:52:33 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:33 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "ApplyJoin" is not a pointer: "[]string"
+2019/06/04 17:52:33 rpc.Register: method "ApplyLeave" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "ApplyMove" is not a pointer: "int"
+2019/06/04 17:52:33 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyQuery" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "AssignUnservedShards" is not a pointer: "int64"
+2019/06/04 17:52:33 rpc.Register: method "GetMinMaxGroups" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "InitNextConfig" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "RebalanceLoad" is not a pointer: "int64"
+2019/06/04 17:52:33 rpc.Register: method "Run" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardmaster.Op"
+2019/06/04 17:52:33 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:33 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-movem-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-movem-2: connect: no such file or directory
+2019/06/04 17:52:33 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:33 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:33 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:33 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:33 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:33 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:33 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:33 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:33 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:33 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:33 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:33 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:33 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:33 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:33 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:33 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:33 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:33 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:33 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:33 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+Test: Reconfiguration with some dead replicas ...
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-1: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-3: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-limps-7: connect: no such file or directory
+  ... Passed
+Test: Concurrent Put/Get/Move ...
+2019/06/04 17:52:41 rpc.Register: reply type of method "ApplyJoin" is not a pointer: "[]string"
+2019/06/04 17:52:41 rpc.Register: method "ApplyLeave" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "ApplyMove" is not a pointer: "int"
+2019/06/04 17:52:41 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyQuery" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "AssignUnservedShards" is not a pointer: "int64"
+2019/06/04 17:52:41 rpc.Register: method "GetMinMaxGroups" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "InitNextConfig" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "RebalanceLoad" is not a pointer: "int64"
+2019/06/04 17:52:41 rpc.Register: method "Run" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardmaster.Op"
+2019/06/04 17:52:41 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:41 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "ApplyJoin" is not a pointer: "[]string"
+2019/06/04 17:52:41 rpc.Register: method "ApplyLeave" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "ApplyMove" is not a pointer: "int"
+2019/06/04 17:52:41 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyQuery" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "AssignUnservedShards" is not a pointer: "int64"
+2019/06/04 17:52:41 rpc.Register: method "GetMinMaxGroups" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "InitNextConfig" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "RebalanceLoad" is not a pointer: "int64"
+2019/06/04 17:52:41 rpc.Register: method "Run" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardmaster.Op"
+2019/06/04 17:52:41 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:41 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "ApplyJoin" is not a pointer: "[]string"
+2019/06/04 17:52:41 rpc.Register: method "ApplyLeave" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "ApplyMove" is not a pointer: "int"
+2019/06/04 17:52:41 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyQuery" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "AssignUnservedShards" is not a pointer: "int64"
+2019/06/04 17:52:41 rpc.Register: method "GetMinMaxGroups" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "InitNextConfig" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "RebalanceLoad" is not a pointer: "int64"
+2019/06/04 17:52:41 rpc.Register: method "Run" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardmaster.Op"
+2019/06/04 17:52:41 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:41 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:41 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:41 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:41 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:41 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:41 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:41 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:41 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:41 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:41 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:41 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:41 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:42 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:42 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:42 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:42 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:42 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:42 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:42 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:42 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:42 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+  ... Passed
+Test: Concurrent Put/Get/Move (unreliable) ...
+2019/06/04 17:52:47 rpc.Register: reply type of method "ApplyJoin" is not a pointer: "[]string"
+2019/06/04 17:52:47 rpc.Register: method "ApplyLeave" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "ApplyMove" is not a pointer: "int"
+2019/06/04 17:52:47 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyQuery" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "AssignUnservedShards" is not a pointer: "int64"
+2019/06/04 17:52:47 rpc.Register: method "GetMinMaxGroups" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "InitNextConfig" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "RebalanceLoad" is not a pointer: "int64"
+2019/06/04 17:52:47 rpc.Register: method "Run" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardmaster.Op"
+2019/06/04 17:52:47 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:47 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-concurrent-falses-3: connect: no such file or directory
+2019/06/04 17:52:47 rpc.Register: reply type of method "ApplyJoin" is not a pointer: "[]string"
+2019/06/04 17:52:47 rpc.Register: method "ApplyLeave" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "ApplyMove" is not a pointer: "int"
+2019/06/04 17:52:47 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+paxos Dial() failed: dial unix /var/tmp/824-501/skv-75544-concurrent-falses-5: connect: no such file or directory
+2019/06/04 17:52:47 rpc.Register: method "ApplyQuery" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "AssignUnservedShards" is not a pointer: "int64"
+2019/06/04 17:52:47 rpc.Register: method "GetMinMaxGroups" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "InitNextConfig" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "RebalanceLoad" is not a pointer: "int64"
+2019/06/04 17:52:47 rpc.Register: method "Run" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardmaster.Op"
+2019/06/04 17:52:47 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:47 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "ApplyJoin" is not a pointer: "[]string"
+2019/06/04 17:52:47 rpc.Register: method "ApplyLeave" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "ApplyMove" is not a pointer: "int"
+2019/06/04 17:52:47 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyQuery" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "AssignUnservedShards" is not a pointer: "int64"
+2019/06/04 17:52:47 rpc.Register: method "GetMinMaxGroups" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "InitNextConfig" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "RebalanceLoad" is not a pointer: "int64"
+2019/06/04 17:52:47 rpc.Register: method "Run" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardmaster.Op"
+2019/06/04 17:52:47 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:47 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:47 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:47 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:47 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:47 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:47 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:47 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:47 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:47 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:47 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:47 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:47 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:47 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:47 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:47 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:47 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:48 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:48 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "ApplyAppend" has 4 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "ApplyGet" has 4 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "ApplyOperation" has 2 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "ApplyPut" has 4 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "ApplyReconfigure" has 2 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "FreePrevRequest" has 2 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "IsDupGet" has 2 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "IsDupPutAppend" has 2 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "Run" has 4 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: reply type of method "RunPaxos" is not a pointer: "shardkv.Op"
+2019/06/04 17:52:48 rpc.Register: method "Setunreliable" has 2 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2019/06/04 17:52:48 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2019/06/04 17:52:48 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-2: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-1: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-1: write: broken pipe
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-1: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-1: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-1: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-7: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-2: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-2: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-2: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-5: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-7: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-6: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-8: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-5: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-8: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-8: write: broken pipe
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-8: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-6: write: broken pipe
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-6: write: socket is not connected
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-6: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-6: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-7: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-6: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-8: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-6: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-7: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-8: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-8: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-1: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-2: write: broken pipe
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-6: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-2: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-1: write: socket is not connected
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-1: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-2: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-1: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: socket is not connected
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-1: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: socket is not connected
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-1: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-2: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-2: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-3: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-5: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-3: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-5: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-5: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-3: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-5: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-3: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-3: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-5: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-5: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-3: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-5: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-5: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-3: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-3: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-3: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-3: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-5: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-5: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-5: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-5: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-3: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: socket is not connected
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-5: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-4: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-8: write: socket is not connected
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-8: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-2: write: broken pipe
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-1: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-2: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-2: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-1: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-1: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-7: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-8: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-8: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-0: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-7: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-6: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-8: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-6: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-8: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-6: write: broken pipe
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-8: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-3: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-3: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-1: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-2: write: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-3: write: broken pipe
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-5: write: broken pipe
+unexpected EOF
+write unix ->/var/tmp/824-501/skv-75544-concurrent-trues-3: write: broken pipe
+--- FAIL: TestConcurrentUnreliable (5.49s)
+    test_test.go:330: Get(10) expected 3906588315672313728 got 39065883156723137283906588315672313728
+    test_test.go:345: something is wrong
+FAIL
+exit status 1
+FAIL	shardkv	42.014s
