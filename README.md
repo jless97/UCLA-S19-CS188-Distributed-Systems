@@ -23,4 +23,7 @@ Programming Language: Go
   * Built a key/value service using the Paxos protocol to replicate the key/value database with no single point of failure, and handles network partitions correctly. This key/value service is slower than a non-replicated key/value server would be, but is fault tolerant
     * Part A: Paxos
     * Part B: Paxos-based Key/Value Server
-* P4 - TBA
+* P4 - Sharded Key/Value Service
+  * Built a key/value storage system that "shards" the keys over a set of replica groups. Each replica group handles puts and gets for just a few of the shards, and the groups operate in parallel; thus total system throughput increases in proportion to the number of groups. The sharded key/value store consists of two components: (1) set of replica groups, in which each is responsible for a subset of the shards, and consists of a handful of servers that use Paxos to replicate the group's shard, and (2) the shard master that decides which replica group should serve each shard (i.e. the configuration). There is a single shard master for the whole system, implemented as a fault-tolerant service using Paxos.
+    * Part A: The Shard Master
+    * Part B: Sharded Key/Value Server
